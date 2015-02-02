@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <cms>
+            <groups>
+                <imageresize translate="label">
+                    <label>Resize images</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>200</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <small translate="label comment">
+                            <label>Small</label>
+                            <frontend_type>text</frontend_type>
+                            <comment><![CDATA[Format: Width x Height]]></comment>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </small>
+                        <medium translate="label comment">
+                            <label>Medium</label>
+                            <frontend_type>text</frontend_type>
+                            <comment><![CDATA[Format: Width x Height]]></comment>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </medium>
+                        <large translate="label comment">
+                            <label>Large</label>
+                            <frontend_type>text</frontend_type>
+                            <comment><![CDATA[Format: Width x Height]]></comment>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </large>
+                    </fields>
+                </imageresize>
+            </groups>
+        </cms>
+    </sections>
+</config>
